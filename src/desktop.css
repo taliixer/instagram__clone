@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 890px;
+    padding-top: 20px;
+}
+.photo{
+    display: initial;
+    width: 50%;
+    height: 500px;
+    margin: 50px 20px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./img/Imagen\ celulares\ de\ instagram.jpeg");
+    background-size: cover;
+}
+.login{
+    width: 50%;
+}
+.app{
+    margin-top: 40px;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+
+.login{
+    width: 80%;
+    margin: 40px auto 10px;
+    padding-bottom: 20px;
+    max-width: 350px;
+    background-color: #fff;
+    border: solid 1px #dbdbdb;
+}
+.login__title{
+    margin:36px auto 28px;
+}
+.login__form {
+    width: 70%;
+}
+.login__input {
+    height: 38px;
+}
+.login__button{
+    margin-block: 10px 12px;
+}
+.sign-up{
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: #fff;
+    border: solid 1px #dbdbdb;
+}
+.hr-text:after {
+    font-size: 1.3rem;
+    color: #292826;
+}
+.options__link-password {
+    margin-block-start: 20px
+}
+.app {
+    margin: 10px auto;
+    font-size: 1.4rem;
+}
