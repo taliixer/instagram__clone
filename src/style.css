@@ -12,7 +12,10 @@ body{
     background-color: #fafafa;
 }
 main{
+    display: grid;
+    place-content: center;
     text-align: center;
+    height: 100vh;
 }
 a{
     text-decoration: none;
@@ -138,13 +141,12 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.app__button--google{
-    background-image: url("./img/Boton_google-play.png");
-}
 .app__button--apple{
     background-image: url("./img/Boton_app-store.png");
 }
-
+.app__button--google{
+    background-image: url("./img/Boton_google-play.png");
+}
 footer{
     width: 90%;
     margin: 50px auto 40px;
@@ -157,7 +159,7 @@ footer>ul{
 }
 li{
     padding: 5px 10px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #8e8e8e;
 }
 

@@ -1,24 +1,36 @@
 main{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 890px;
-    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
 }
-.photo{
+.photos{
     display: initial;
-    width: 50%;
+    width: 40%;
     height: 500px;
-    margin: 50px 20px 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./img/Imagen\ celulares\ de\ instagram.jpeg");
+    background-image: url("./img/cell.png");
     background-size: cover;
 }
-.login{
+.information{
     width: 50%;
 }
-.app{
-    margin-top: 40px;
+.login{
+    width: 400px;
+    margin-top: 0;
+}
+.login__form{
+    width: 308px;
+}
+.sign-up{
     width: 100%;
+}
+.app{
+    margin-top: 16px;
+    width: 100%;
+}
+footer{
+    margin-top:  0;
 }
