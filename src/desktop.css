@@ -1,20 +1,22 @@
 main{
     display: flex;
     justify-content: center;
-    align-items: center;
-    max-width: 768px;
+    max-width: 800px;
     margin: 50px auto 30px;
 }
-.photos{
-    display: flex;
+.main--carousel{
+    position: relative;
+    display: block;
+    background-image: url("./img/case.png");
+    background-size: cover;
     width: 400px;
     height: 600px;
-    align-items: center;
 }
-.photos > img{
-    width: 95%;
-    height: 95%;
-    object-fit: cover;
+.main--carousel img{
+    position: absolute;
+    right: 15px;
+    bottom: 56px;
+    height: 87%;
 }
 .information{
     margin: 0 auto 0;
