@@ -3,34 +3,22 @@ main{
     justify-content: center;
     align-items: center;
     max-width: 768px;
-    margin: 0 auto;
+    margin: 50px auto 30px;
 }
 .photos{
-    display: initial;
-    width: 40%;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("./img/cell.png");
-    background-size: cover;
+    display: flex;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+}
+.photos > img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
 }
 .information{
-    width: 50%;
-}
-.login{
-    width: 400px;
-    margin-top: 0;
-}
-.login__form{
-    width: 308px;
-}
-.sign-up{
-    width: 100%;
-}
-.app{
-    margin-top: 16px;
-    width: 100%;
+    margin: 0 auto 0;
 }
 footer{
-    margin-top:  0;
+    margin-top:  0px;
 }

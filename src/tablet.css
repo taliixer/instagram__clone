@@ -1,9 +1,11 @@
 
+.information{
+    width: 400px;
+}
 .login{
-    width: 80%;
-    margin: 40px auto 10px;
+    width: 85%;
+    margin: 0 auto 10px;
     padding-bottom: 20px;
-    max-width: 350px;
     background-color: #fff;
     border: solid 1px #dbdbdb;
 }
@@ -20,7 +22,7 @@
     margin-block: 10px 12px;
 }
 .sign-up{
-    width: 80%;
+    width: 85%;
     max-width: 350px;
     margin: 0 auto;
     padding: 20px 20px;
